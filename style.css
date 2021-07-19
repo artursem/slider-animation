@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Lobster', cursive; */
+
+main {
+    font-family: 'Heebo', sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    background: url("./hero.jpg");
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
